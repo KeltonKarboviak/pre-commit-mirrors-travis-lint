@@ -1,0 +1,7 @@
+-   id: travis
+    name: travis
+    entry: travis
+    language: ruby
+    'files': ^\.travis.yml$
+    args: ["lint", "-x"]
+    additional_dependencies: []
